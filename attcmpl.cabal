@@ -25,14 +25,14 @@ library
                , random-fu >= 0.2.5
                , random-source >= 0.3.0
                , mtl >= 2.1.3
---             , hmatrix >= 0.15.2
+               , hmatrix >= 0.15.2
   -- hs-source-dirs:      
   default-language:    Haskell2010
 
 executable runFilter
   main-is: PlotFilter.hs
   build-depends: base >=4.7 && <4.8
---               , hmatrix >= 0.15.2
+               , hmatrix >= 0.15.2
                , linear >= 1.10
                , lens >= 4.1
                , Chart >= 1.2.2
